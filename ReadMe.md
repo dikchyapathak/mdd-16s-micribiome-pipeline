@@ -4,6 +4,21 @@ A reproducible QIIME 2 + fastp pipeline for processing paired-end 16S rRNA ampli
 sequencing data to compare gut microbiome composition and diversity between MDD
 patients and healthy controls.
 
+## Data overview
+For this analysis, I used the publicly available dataset that compared the gut microbiome between healthy individuals and MDD patients. The following is the overview of the dataset I used:
+**General Information**\
+**BioProject**: PRJNA687871\
+Total Number of Samples: 81\
+Organism: Homo sapiens (Human)\
+Tissue / Sample Source: Fecal/Stool samples (≥1 g)\
+Collection Location: Beijing, China (Beijing Huilongguan Hospital)\
+**Experimental Metadata**\
+Control / Treatment:\
+Disease Group (MDD): 36 patients diagnosed with Major Depressive Disorder (depressive episode of at least moderate severity).\
+Control Group (HC): 45 Healthy Controls (no history of psychiatric disorders).\
+Timepoints: Single timepoint (Cross-sectional). Samples were collected within 2 days after hospital admission or after a drug elution period.
+
+
 ## Pipeline Overview
 
 1. **Download** — Fetch raw FASTQ files from ENA using SRA accessions.
