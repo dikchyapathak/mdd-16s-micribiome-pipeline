@@ -5,7 +5,7 @@ sequencing data to compare gut microbiome composition and diversity between MDD
 patients and healthy controls.
 
 ## Data overview
-For this analysis, I used the publicly available dataset that compared the gut microbiome between healthy individuals and MDD patients. The following is the overview of the dataset I used:
+For this analysis, I used the publicly available dataset that compared the gut microbiome between healthy individuals and MDD patients. The following is the overview of the dataset I used:\
 **General Information**\
 **BioProject**: PRJNA687871\
 Total Number of Samples: 81\
