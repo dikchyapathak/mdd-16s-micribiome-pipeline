@@ -23,7 +23,7 @@ patients and healthy controls.
 
 ## Prerequisites
 
-- [QIIME 2](https://docs.qiime2.org/) (tested with the 2022.2 / vsearch plugin)
+- [QIIME 2](https://docs.qiime2.org/) 
 - [fastp](https://github.com/OpenGene/fastp)
 - `wget` and `curl`
 - Bash (Linux/macOS/WSL)
@@ -32,7 +32,7 @@ Install QIIME 2 via conda following the [official instructions](https://docs.qii
 then activate the environment before running any script:
 
 ```bash
-conda activate qiime2-2022.2
+conda activate qiime2-2024.2
 ```
 
 ## ⚠️ Important: Update the Path Variables Before Running
