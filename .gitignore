@@ -1,0 +1,30 @@
+# Raw / intermediate sequencing data (large, regenerable from SRA)
+Raw_data/
+QC_data/
+Trimmed_data/
+
+# QIIME 2 artifacts and visualizations (large, regenerable from pipeline)
+*.qza
+*.qzv
+Results/
+
+# Downloaded reference classifiers (large)
+*classifier*.qza
+Greengenes2.qza
+silva-138-99-515-806-nb-classifier.qza
+
+# fastp reports (regenerable, can be large in bulk)
+*_fastp.html
+*_fastp.json
+*_fastp.log
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# Conda / env files
+.conda/
+*.env
